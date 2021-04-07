@@ -45,6 +45,7 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
+  # this veru imporing to shpw an email to the usere The sent message should pop up in the browser if all went according to plan
   config.action_mailer.delivery_method = :letter_opener
   config.action_mailer.default_url_options = { host: 'localhost:3000' }
 
